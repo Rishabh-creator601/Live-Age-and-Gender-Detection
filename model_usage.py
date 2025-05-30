@@ -9,8 +9,11 @@ import numpy  as np
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '1' 
 
-model_age =  load_model(os.path.join("./models/age_model.hdf5"))
-model_gen =  load_model(os.path.join("./models/gender_model.hdf5"))
+model_age =  load_model(os.path.join("./models/age_model.hdf5"),compile=False)
+model_gen =  load_model(os.path.join("./models/gender_model.hdf5"),compile=False)
+
+model_age.compile(loss="categorical_crossentropy",optimizer="adam",metrics=["acc"])
+model_gen.compile(loss="categorical_crossentropy",optimizer="adam",metrics=["acc"])
 
 # images_path =  os.path.join("./images")
 # images = []

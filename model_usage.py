@@ -9,8 +9,8 @@ import numpy  as np
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '1' 
 
-model_age =  load_model("./models/age_model.hdf5")
-model_gen =  load_model("./models/gender_model.hdf5")
+model_age =  load_model(os.path.join("./models/age_model.hdf5"))
+model_gen =  load_model(os.path.join("./models/gender_model.hdf5"))
 
 # images_path =  os.path.join("./images")
 # images = []

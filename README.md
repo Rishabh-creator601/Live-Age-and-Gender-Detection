@@ -1,32 +1,43 @@
-# 👤 Live Age and Gender Detection with Streamlit + WebRTC
+# 👤 Live Age and Gender Detection | Streamlit + WebRTC
 
-This is a real-time age and gender detection app built using **Streamlit**, **OpenCV**, **Keras**, and **streamlit-webrtc**. It captures live video from your webcam, detects faces, and predicts the age and gender of each detected person using a pre-trained deep learning model.
+A real-time age and gender detection app powered by **Streamlit**, **OpenCV**, **Keras**, and **streamlit-webrtc**.  
+It captures live webcam feed, detects faces, and predicts both age and gender using a deep learning model.
 
-👉 **[Try the Live App](https://live-age-and-gender-detection.streamlit.app/)**
+👉 **[Live App Demo](https://live-age-and-gender-detection.streamlit.app/)**  
+📘 **[View Kaggle Notebook](https://www.kaggle.com/code/rishabh2007/gender-and-age-detection-88)**
 
 ---
 
 ## 📸 Features
 
-- 🔴 Real-time face detection using Haar cascades
-- 🧠 Age prediction using a pre-trained Keras model
-- 👥 Gender prediction support (can be integrated)
-- 📷 WebRTC integration for smooth webcam streaming
-- 💡 Based on a working implementation from [Kaggle Notebook →](https://www.kaggle.com/code/rishabh2007/gender-and-age-detection-88)
-- 🌐 Deployed live using **Streamlit Cloud**
-- 🖥️ Built with Streamlit for an interactive web interface
+- 🔴 Real-time face detection using Haar cascades  
+- 🧠 Age prediction with a pre-trained Keras model  
+- 👥 Gender classification support  
+- 📷 Seamless webcam streaming using WebRTC  
+- 🌐 Hosted with Streamlit Cloud  
+- 🖥️ Intuitive and interactive web interface  
 
 ---
 
-## Model Metrics :
+## 📊 Model Metrics
 
-**For Age :**
-<img width="851" height="581" alt="Image" src="https://github.com/user-attachments/assets/3ae0dbad-1ec0-4179-9c77-52ebfa6e5763" />
+<table>
+  <tr>
+    <td align="center">
+      <h3>👶 Age Metrics</h3>
+      <img src="https://github.com/user-attachments/assets/3ae0dbad-1ec0-4179-9c77-52ebfa6e5763" width="100%" style="max-width: 450px;">
+    </td>
+    <td align="center">
+      <h3>🧑 Gender Metrics</h3>
+      <img src="https://github.com/user-attachments/assets/bcb3d05d-0e37-4aa4-9e90-fe51005c797c" width="100%" style="max-width: 450px;">
+    </td>
+  </tr>
+</table>
 
+---
 
-**For Gender :**
-<img width="806" height="590" alt="Image" src="https://github.com/user-attachments/assets/bcb3d05d-0e37-4aa4-9e90-fe51005c797c" />
+## 🔮 Model Prediction Output
 
-
-## Model Prediction : 
-<img width="747" height="620" alt="Image" src="https://github.com/user-attachments/assets/09fcb888-74b9-49eb-a310-7bf5f3afd991" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/09fcb888-74b9-49eb-a310-7bf5f3afd991" width="80%" style="max-width: 700px;">
+</p>

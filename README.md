@@ -25,7 +25,7 @@ This is a real-time age and gender detection app built using **Streamlit**, **Op
 
 
 **For Gender :**
-<img width="1132" height="462" alt="Image" src="https://github.com/user-attachments/assets/f2a303f4-6624-4d2d-911c-c5784b7f295e" />
+<img width="806" height="590" alt="Image" src="https://github.com/user-attachments/assets/bcb3d05d-0e37-4aa4-9e90-fe51005c797c" />
 
 
 ## Model Prediction : 
